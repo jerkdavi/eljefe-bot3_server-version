@@ -7,7 +7,7 @@
 		//console.log(`${args[0]}`);
 		//console.log(`${args[1]}`);
 		//console.log(`${args[2]}`);
-		if(!sender.id === '764170607004745739'){
+		if(!(sender.id === '764170607004745739')){
 			message.channel.send({embed:{
 				description:'You do not have permissions to request the deletion of messages on this server!',
 				color:0xD4AF37
