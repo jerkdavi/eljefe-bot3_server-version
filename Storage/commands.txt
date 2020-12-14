@@ -5,5 +5,5 @@ List of Commands:
 -balance - returns your balance
 -balance @[user] - returns specified user's balance
 -beg - if you're lucky, you'll be given a small amount of money
--give [amount] @[user] - gives the specified amount to the specified user
 -rob @[user] - if you're lucky, you'll manage to steal a small amount of money
+-give [amount] @[user] - gives the specified amount to the specified user
