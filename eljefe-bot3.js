@@ -19,8 +19,7 @@
 			bot.commands.set(cmds.config.command, cmds);
 		});	
 	});
-	let prefix = '-';
-	//let prefix = process.env.prefix;
+	let prefix = process.env.prefix;
 	let owner = process.env.ownerID;
 	bot.on('message', function(message){
 		let sender = message.author;
@@ -52,5 +51,4 @@
 		console.log(`Logged in as ${bot.user.tag}!`);
 		bot.user.setStatus('Online');
 	});
-	bot.login('Nzg2ODkyMzg1NjgyMTk0NDQy.X9NApA.hin8RVGoD-ponFJ8__0SibcsJoI');
-	//bot.login(process.env.DISCORD_TOKEN);
+	bot.login(process.env.DISCORD_TOKEN);
