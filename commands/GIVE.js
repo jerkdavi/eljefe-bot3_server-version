@@ -2,8 +2,7 @@
 	module.exports.run = async (bot, message, args, userEco) => {
 		let fs = require('fs');
 		let sender = message.author;
-		let prefix = '-';
-		//let prefix = process.env.prefix;
+		let prefix = process.env.prefix;
 		console.log(`${sender.id}`)
 		if(!args[1]){
 			message.channel.send({embed:{
