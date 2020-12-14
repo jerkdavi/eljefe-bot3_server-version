@@ -6,7 +6,8 @@
 		//console.log(`${args[0]}`);
 		//console.log(`${args[1]}`);
 		//console.log(`${args[2]}`);
-		if(!(sender.id === '764170607004745739')){
+		let owner = process.env.ownerID;
+		if(!(sender.id === owner)){
 			message.channel.send({embed:{
 				description:'You do not have permissions to request the deletion of messages on this server!',
 				color:0xD4AF37
