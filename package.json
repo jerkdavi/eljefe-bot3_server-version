@@ -1,0 +1,16 @@
+{
+	"name": "eljefe-bot3",
+	"version": "1.0.0",
+	"description": "I am a funny little bot.",
+	"main": "eljefe-bot3.js",
+	"scripts": {
+		"start": "node eljefe-bot3.js"
+	},
+	"keywords": [],
+	"author": "ElJefe",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^12.5.1",
+		"quick.db": "^7.1.3"
+	}
+}
